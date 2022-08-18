@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;700&family=Roboto&family=Roboto+Serif:opsz,wght@8..144,400;8..144,500;8..144,600;8..144,700&display=swap");
+ 
+
+.LogoHead {
+  background-color: #d8d8d8;
+  padding: 5px;
+}
+.MultyLang {
+  width: 24%;
+  /* border: 2px solid red; */
+  margin: auto;
+}
+
+.MultyLang li {
+  list-style: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.MultyLang li:nth-child(1) {
+  border-top: 3px solid red;
+}
+
+/* ======================================================================================= */
+
+.LogoBody {
+  display: flex;
+  background-color: #f3f0f0;
+  padding: 15px 20px;
+  font-family: sans-serif;
+}
+
+.FollowLinks {
+  text-align: center;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.LogoBody label {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.LogoImgDiv {
+  margin-left: 33%;
+  text-align: center;
+  /* border: 2px solid red; */
+  width: 25%;
+  cursor: pointer;
+}
+
+.LogoImgDiv img {
+  margin-bottom: 5px;
+}
+
+/* ============================================================================================================ */
+
+/* ============ MEDIA QUERIES ================== */
+
+@media only screen and (max-width: 768px) and (min-width: 413px) {
+  .Media_logo {
+    display: none;
+  }
+}
+
+
+/* ================================================================================================================ */
+
+/* ============= Small screens ============= */
+
+@media only screen and (max-width: 430px) and (min-width: 60px) {
+  .Media_logo {
+    display: none;
+  }
+}
+
+

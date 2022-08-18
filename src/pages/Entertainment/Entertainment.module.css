@@ -1,0 +1,46 @@
+.leadstory{
+    display: flex;
+    overflow: hidden;
+    padding: 10px;
+    gap: 30px;
+   
+}
+
+.bighead{
+   
+  
+    width: 390px;
+    background-color: red;
+    color: white;
+ 
+}
+
+.minihead{
+   
+    width: 275px;
+    margin-top: 0px ;
+
+}
+.temp{
+    width: 600px;
+    border: 10px solid lightgray;
+    height: 400px;
+    box-sizing: border-box;
+}
+
+.enternewshead{
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: large;
+    
+}
+
+.imgstyle{
+   height: 300px;
+}
+
+.center{
+    text-align: center;
+    color: tomato;
+    font-weight: 800;
+}

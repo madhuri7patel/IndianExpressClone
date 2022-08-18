@@ -1,0 +1,25 @@
+.moreent{
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.sidenews{
+    width: 230px;
+ 
+}
+
+.moreentred{
+    color: red;
+    margin-top: 0px;
+}
+
+.content{
+    font-size: small;
+    
+}
+
+.content:hover{
+    color: tomato;
+    cursor: pointer;
+}

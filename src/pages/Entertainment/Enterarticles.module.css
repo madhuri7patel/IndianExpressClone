@@ -1,0 +1,50 @@
+.mainarticles{
+    display: flex;
+    gap: 5px;
+    margin-top: 15px;
+}
+
+.para{
+   
+    width: 400px;
+  
+    color: #444;
+    font-size: 14px;
+   
+   
+}
+
+.headline{
+   
+    width: 400px;
+    margin-top: 0px;
+    font-family: "Roboto";
+}
+
+.headline:hover{
+    color: tomato;
+    cursor: pointer;
+}
+
+.img{
+    width: 270px;
+    height: 150px;
+
+}
+
+.articlesimg{
+   height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.moviemaindiv{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   
+
+}
+.moviemaindiv>div>p{
+text-decoration: line-through;
+}

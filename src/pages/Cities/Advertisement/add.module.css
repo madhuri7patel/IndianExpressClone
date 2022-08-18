@@ -1,0 +1,59 @@
+.addv{
+                     color: #6b6b6b;
+                     font-family: Roboto,sans-serif;
+                     font-size: 14px;
+                     padding: 0 0 9px;
+                     margin: 0 auto;
+                     text-align: center;
+                 }
+                 .aero{
+                     margin-left: 10px;
+                     margin-right:10px;
+                 }
+                 .meta{
+                     background-color: #fff;
+                     border: 3px solid #7c8992;
+                     margin: 10px 5px 25px;
+                     margin-top: 10px;
+                     overflow: hidden;
+                     padding: 7px;
+                     box-shadow: 0 0 5px 5px #dfdfdf;
+                 }
+                 .abc{
+                     background-color: #fff;
+                     /* border: 3px solid #7c8992; */
+                     margin: 10px 5px 25px;
+                     margin-top: 10px;
+                     overflow: hidden;
+                     padding: 7px;
+                     /* box-shadow: 0 0 5px 5px #dfdfdf; */
+                 }
+                 .image{
+                     width:270px;
+                     margin: auto;
+                     margin-top: 15px;
+                     height: 23px;
+                 }
+                 .ab{
+                     width:180px;
+                     height: 130px;
+                     margin: auto;
+                 }
+                 .back{
+                     background: #fff;
+                     margin: 5px 5px 25px;
+                     overflow: hidden;
+                     padding: 10px;
+                     -moz-box-shadow: 0 0 5px 5px #dfdfdf;
+                     -webkit-box-shadow: 0 0 5px 5px #dfdfdf;
+                     box-shadow: 0 0 5px 5px #dfdfdf;
+                 }
+                 h4{
+                     display: block;
+                     margin-block-start: 1.33em;
+                     margin-block-end: 1.33em;
+                     margin-inline-start: 0px;
+                     margin-inline-end: 0px;
+                     font-weight: bold;
+                     color: #a32020;
+                 }
